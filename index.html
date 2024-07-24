@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <head></head>
+
+    <main>
+
+        <section class="img-logo"><img src="css/assets/Logo.svg"></section>
+
+        <section class="crypto-input">
+            <div class="crypto-input-text">
+                <textarea placeholder="Digite seu texto" rows="15"></textarea>
+            </div>
+
+            <div class="warning">
+                <img src="css/assets/bi_exclamation-circle-fill.svg">
+                <p>Apenas letras minúsculas e sem acento</p>
+            </div>
+
+            <div class="buttons">
+                <button class="primary-button" id="primary-button">Criptografar</button>
+                <button class="secondary-button" id="secondary-button">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="crypto-output">
+            <div class="container">
+                <div class="no-message-container enable">
+
+                    <img src="css/assets/High quality products 1 1.svg">
+                    <h2>
+                        Nenhuma mensagem encontrada
+                    </h2>
+                    <p>
+                        Digite um texto que você deseja criptografar ou descriptografar.
+                    </p>
+                </div>
+
+                <div class="output-container disabled">
+                    <p class="crypto-output-p"></p>
+                    <button class="button-copy">Copiar</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
